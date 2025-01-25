@@ -10,9 +10,7 @@ public class GameMinDTO {
     private String imgUrl;
     private String shortDescription;
 
-    public GameMinDTO() {
-        
-    }
+    public GameMinDTO() {}
 
     public GameMinDTO(Game entity) {
         id = entity.getId();
